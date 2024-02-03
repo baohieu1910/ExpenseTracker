@@ -8,7 +8,7 @@
 import Foundation
 import CoreData
 
-class CoreDataManage {
+class CoreDataManage: ObservableObject {
     private let containerName: String
     var viewContext: NSManagedObjectContext { persistentContainer.viewContext }
     

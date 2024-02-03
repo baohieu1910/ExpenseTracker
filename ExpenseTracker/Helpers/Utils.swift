@@ -19,5 +19,5 @@ struct Utils {
         formatter.isLenient = true
         formatter.numberStyle = .currency
         return formatter
-    }
+    }()
 }
